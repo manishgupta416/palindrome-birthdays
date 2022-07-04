@@ -18,12 +18,12 @@ function clickHandler() {
             showOutput.innerText = "YaY Your birthday is Palindrome 🥳🥳"
         }else{
             var [count , nextDate] = getNextPalindromeDate(date)
-            showOutput.innerText = `You missed by ${count}  and your next palindrome date is ${nextDate.day} days ${nextDate.day} months ${nextDate.year} year` 
+            showOutput.innerText = `You missed by ${count} days and your nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} ` 
 
         }
        
     } else{
-        showOutput.innerText = "Please Enter your birthday day"
+        showOutput.innerText = "Please Enter your birthday date"
     }
 }
 
