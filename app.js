@@ -164,28 +164,7 @@ function getNextDate (date) {
      }
 }
 
-// var date2 = {
-//     day:5,
-//     month:2,
-//     year:2020
-// }
-
 console.log(getNextDate(date))
-
-
-// function getpreviousDate (date) {
-//      var day = date.day-1
-//      var month = date.month
-//      var year = date.year
-//      var daysInMonth = [31,28,31,30,31,30,31,31,30,31,30,31]
-
-//      if(month == 2) {
-
-//      } else{
-//         d
-//      }
-// }
-
 
 
 function getNextPalindromeDate (date) {

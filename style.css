@@ -33,15 +33,12 @@ label{
 input{
     margin: 16px 0px;
     padding: 12px 58px;
-    /* font-size: large; */
-    /* font-weight: medium; */
     border-radius: 20px;
     border: 2px solid #7c3aed;
 }
 
 button:hover , input:hover{
     background-color: #7c3aed ;
-    /* box-shadow: 5px 5px 5px; */
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     color: white;
 }
